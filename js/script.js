@@ -6,6 +6,9 @@ console.log(firstname);
 console.log(lastname);
 console.log(favColor);
 
+const randonNumb= Math.floor(Math.random() *115);
+console.log(randonNumb);
+
 let firstMessage = "La tua password è pronta!"
 console.log(firstMessage);
 
@@ -14,6 +17,10 @@ welcome = `<h2>Ciao ${firstname}<br>${firstMessage}</h2>`;
 document.getElementById('welcome').innerHTML = welcome;
 
 
-let pass = firstname + lastname + favColor;
+const pass = firstname + lastname + favColor + randonNumb;
 console.log(pass);
 document.getElementById('pass').innerHTML = pass;
+
+
+
+
